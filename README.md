@@ -25,6 +25,27 @@ The analysis of the election show that:
   - Raymon Anthony Doane received 3.1% of the votes and 11,606 votes 
 - The winner of the election was: 
   - Diana DeGette who received 73.8% of the votes and 272,892 votes
-  
+ 
 ## Challenge Overview
+The election commission requested additional data about the results of county in the election. They asked for the following data about the counties:
+1. The voter turnout for each county
+2. The percentage of votes from each county out of the total count
+3. The county with the highest turnout
+
+### Election-Audit Results: 
+-	There were 369,711 total votes cast 
+-	County Votes: 
+    -	Jefferson: 10.5% (38,855)
+    -	Denver: 82.8% (306,055)
+    -	Arapahoe: 6.7% (24,801)
+-	The count with the highest number of votes is Denver
+- The candidate results were:
+  - Charles Casper Stockham received 23.0% of the votes and 85,213 votes
+  - Diana DeGette received 73.8% of the votes and 272,892 votes
+  - Raymon Anthony Doane received 3.1% of the votes and 11,606 votes 
+- The winner of the election was: 
+  - Diana DeGette who received 73.8% of the votes and 272,892 votes
+
 ## Challenge Summary
+### Election-Audit Summary: 
+While this script was created for a specific audit for The Colorado Board of Elections, it can be modified to fit any election. For example, if the script was used to audit the results of the state’s gubernatorial election, we could modify the existing script to find the candidate’s and voter’s associated political party to see which party had the highest number of votes. Another example of how this script can be modified to fit any election would be to find how each voter voted. Since there are multiple ways to vote (e.g., mail-in ballot, in-person, absentee, etc.), we can find out how people are voting and the make decisions on where to place resources to improve voter experience in future elections. 
